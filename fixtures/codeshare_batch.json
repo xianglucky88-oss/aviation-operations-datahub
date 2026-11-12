@@ -1,0 +1,86 @@
+[
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-01T06:00:00Z",
+    "payload": {
+      "flight_id": "CA1001",
+      "flight_date": "2026-11-01",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "SHA",
+      "status": "scheduled",
+      "scheduled_departure": "2026-11-01T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-b",
+    "observed_at": "2026-11-01T06:05:00Z",
+    "payload": {
+      "flight_id": "ZH5001",
+      "flight_date": "2026-11-01",
+      "airline_code": "ZH",
+      "origin": "PEK",
+      "destination": "SHA",
+      "status": "scheduled",
+      "scheduled_departure": "2026-11-01T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airline-feed",
+    "observed_at": "2026-11-01T06:10:00Z",
+    "payload": {
+      "flight_id": "NX108",
+      "flight_date": "2026-11-01",
+      "airline_code": "NX",
+      "origin": "PEK",
+      "destination": "SHA",
+      "status": "scheduled",
+      "scheduled_departure": "2026-11-01T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-01T06:15:00Z",
+    "payload": {
+      "flight_id": "CCA1001",
+      "flight_date": "2026-11-01",
+      "airline_code": "CCA",
+      "origin": "PEK",
+      "destination": "SHA",
+      "status": "scheduled",
+      "scheduled_departure": "2026-11-01T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-b",
+    "observed_at": "2026-11-01T06:20:00Z",
+    "payload": {
+      "flight_id": "MU7201",
+      "flight_date": "2026-11-01",
+      "airline_code": "MU",
+      "origin": "SHA",
+      "destination": "CAN",
+      "status": "scheduled",
+      "scheduled_departure": "2026-11-01T07:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airline-feed",
+    "observed_at": "2026-11-01T06:25:00Z",
+    "payload": {
+      "flight_id": "ZZ9",
+      "flight_date": "2026-11-01",
+      "airline_code": "ZZ",
+      "origin": "P2K",
+      "destination": "SHA",
+      "status": "scheduled",
+      "scheduled_departure": "2026-11-01T08:00:00Z",
+      "actual_departure": null
+    }
+  }
+]

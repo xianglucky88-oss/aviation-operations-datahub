@@ -1,0 +1,43 @@
+{
+  "mapping_version": "mapping-2026-11-v1",
+  "collapse_leading_zeros": true,
+  "airline_aliases": [
+    {
+      "rule_id": "AA-CA-001",
+      "alias": "CCA",
+      "canonical": "CA"
+    }
+  ],
+  "flight_aliases": [
+    {
+      "rule_id": "FA-MU-001",
+      "airline": "MU",
+      "number": "7201",
+      "canonical_airline": "MU",
+      "canonical_number": "201"
+    }
+  ],
+  "codeshare_rules": [
+    {
+      "rule_id": "CS-PEK-SHA-001",
+      "group_id": "GRP-PEK-SHA-1001",
+      "airline": "CA",
+      "number": "1001",
+      "operating": true
+    },
+    {
+      "rule_id": "CS-PEK-SHA-002",
+      "group_id": "GRP-PEK-SHA-1001",
+      "airline": "ZH",
+      "number": "5001",
+      "operating": false
+    },
+    {
+      "rule_id": "CS-PEK-SHA-003",
+      "group_id": "GRP-PEK-SHA-1001",
+      "airline": "NX",
+      "number": "108",
+      "operating": false
+    }
+  ]
+}

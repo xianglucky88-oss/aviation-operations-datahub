@@ -15,11 +15,24 @@ def main() -> None:
     parser.add_argument("--raw-dir")
     parser.add_argument("--timeout", type=float, default=30.0)
     parser.add_argument("--records-key")
+    parser.add_argument(
+        "--identity-mapping",
+        help="optional path to a versioned flight identity mapping JSON document",
+    )
     args = parser.parse_args()
     if args.fixture:
-        result = run_fixture(args.fixture, args.database, args.raw_dir)
+        result = run_fixture(
+            args.fixture, args.database, args.raw_dir, identity_mapping=args.identity_mapping
+        )
     else:
-        result = run_url(args.url, args.database, args.raw_dir, args.timeout, args.records_key)
+        result = run_url(
+            args.url,
+            args.database,
+            args.raw_dir,
+            args.timeout,
+            args.records_key,
+            identity_mapping=args.identity_mapping,
+        )
     print(json.dumps(result, ensure_ascii=False, sort_keys=True))
 
 
