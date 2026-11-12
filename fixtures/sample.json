@@ -1,0 +1,57 @@
+[
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-01T06:00:00Z",
+    "payload": {
+      "flight_id": "CA100",
+      "flight_date": "2026-11-01",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "SHA",
+      "status": "departed",
+      "scheduled_departure": "2026-11-01T06:30:00Z",
+      "actual_departure": "2026-11-01T06:42:00Z"
+    }
+  },
+  {
+    "source": "airport-b",
+    "observed_at": "2026-11-01T07:00:00Z",
+    "payload": {
+      "flight_id": "MU201",
+      "flight_date": "2026-11-01",
+      "airline_code": "MU",
+      "origin": "SHA",
+      "destination": "CAN",
+      "status": "boarding",
+      "scheduled_departure": "2026-11-01T07:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airline-feed",
+    "observed_at": "2026-11-01T08:00:00Z",
+    "payload": {
+      "flight_id": "HU301",
+      "flight_date": "2026-11-01",
+      "airline_code": "HU",
+      "origin": "CAN",
+      "destination": "SZX",
+      "status": "delayed",
+      "scheduled_departure": "2026-11-01T08:15:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-01T09:00:00Z",
+    "payload": {
+      "flight_id": "BAD",
+      "flight_date": "2026-11-01",
+      "airline_code": "XX",
+      "origin": "PEK",
+      "destination": "PEK",
+      "status": "unknown",
+      "scheduled_departure": "2026-11-01T09:15:00Z"
+    }
+  }
+]
