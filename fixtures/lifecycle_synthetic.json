@@ -1,0 +1,114 @@
+[
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-02T05:55:00Z",
+    "payload": {
+      "flight_id": "CA200",
+      "flight_date": "2026-11-02",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "CAN",
+      "status": "scheduled",
+      "scheduled_departure": "2026-11-02T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-b",
+    "observed_at": "2026-11-02T05:57:00Z",
+    "payload": {
+      "flight_id": "CA200",
+      "flight_date": "2026-11-02",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "CAN",
+      "status": "boarding",
+      "scheduled_departure": "2026-11-02T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-02T06:10:00Z",
+    "payload": {
+      "flight_id": "CA200",
+      "flight_date": "2026-11-02",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "CAN",
+      "status": "delayed",
+      "scheduled_departure": "2026-11-02T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-02T07:05:00Z",
+    "payload": {
+      "flight_id": "CA200",
+      "flight_date": "2026-11-02",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "CAN",
+      "status": "departed",
+      "scheduled_departure": "2026-11-02T06:30:00Z",
+      "actual_departure": "2026-11-02T07:02:00Z"
+    }
+  },
+  {
+    "source": "airline-feed",
+    "observed_at": "2026-11-02T06:40:00Z",
+    "payload": {
+      "flight_id": "CA200",
+      "flight_date": "2026-11-02",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "CAN",
+      "status": "cancelled",
+      "scheduled_departure": "2026-11-02T06:30:00Z",
+      "actual_departure": null
+    }
+  },
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-02T09:40:00Z",
+    "payload": {
+      "flight_id": "CA200",
+      "flight_date": "2026-11-02",
+      "airline_code": "CA",
+      "origin": "PEK",
+      "destination": "CAN",
+      "status": "arrived",
+      "scheduled_departure": "2026-11-02T06:30:00Z",
+      "actual_departure": "2026-11-02T07:02:00Z"
+    }
+  },
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-02T23:40:00Z",
+    "payload": {
+      "flight_id": "MU300",
+      "flight_date": "2026-11-02",
+      "airline_code": "MU",
+      "origin": "PEK",
+      "destination": "SHA",
+      "status": "departed",
+      "scheduled_departure": "2026-11-02T23:50:00Z",
+      "actual_departure": "2026-11-03T00:05:00Z"
+    }
+  },
+  {
+    "source": "airport-a",
+    "observed_at": "2026-11-03T01:30:00Z",
+    "payload": {
+      "flight_id": "MU300",
+      "flight_date": "2026-11-02",
+      "airline_code": "MU",
+      "origin": "PEK",
+      "destination": "SHA",
+      "status": "arrived",
+      "scheduled_departure": "2026-11-02T23:50:00Z",
+      "actual_departure": "2026-11-03T00:05:00Z"
+    }
+  }
+]
